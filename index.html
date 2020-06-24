@@ -3,14 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-<form>
-    <input type="text" id= "search-city">
-    <input type= "submit" id= "submit" value= "submit">
+    <div class="jumbotron jumbotron-fluid bg-dark text-light">
+        <div class="container">
+          <h1 class="display-4">Weather Dashboard</h1>
+          <p class="lead">Enter a city name to get a 5 day forecast!</p>
+        </div>
+    </div>
+    <div class= "container">
+        <div class= "row">
+            <form>
+                <div class="form-inline">
+                  <label for="input-instructions">Search for a city:</label>
+                  <input type="city-name" class="form-control" id="search-city" aria-describedby="emailHelp">
+                  <button type="button" class="btn btn-outline-secondary" id= "submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <br><br>
+    <div class= "row">
+        <div class= "col-2" id= "cities"></div>
+        <div class= "col-10" id= "today">
 
-    
+        </div>
+    </div>
+    <div class= "row">
+        <div class= "col-2"></div>
+        <div class= "col-10 card-group" id= "forecast">
+
+        </div>
+    </div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
