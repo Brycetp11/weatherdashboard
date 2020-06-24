@@ -1,8 +1,8 @@
 # weatherdashboard:
 
-Link to repo:
+Link to repo: https://github.com/Brycetp11/weatherdashboard
 
-Link to deployed application:
+Link to deployed application: https://brycetp11.github.io/weatherdashboard/
 
 In this project I created a dashboard which shows you the current weather, and the weather for the next 5 days of the city you search. Once the city is searched, then a button is created, so the user can access the information again without having to type it again into the input field. 
 
